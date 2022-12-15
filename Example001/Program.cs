@@ -1,0 +1,1 @@
+﻿Console.WriteLine("Капец УуУ Hello, World!");
