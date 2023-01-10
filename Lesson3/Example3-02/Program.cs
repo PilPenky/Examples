@@ -1,6 +1,6 @@
-﻿static int[] CreateArray()
+﻿static int[] CreateArray(int count)
 {
-    return new int[10];
+    return new int[count];
 }
 
 void Fill(int[] elements)
@@ -51,7 +51,7 @@ string Print(int[] collection)
     return output;
 }
 
-int[] arr = CreateArray();
+int[] arr = CreateArray(5);
 Fill(arr);
 int sum = GetSum(arr);
 Console.WriteLine(Print(arr));
