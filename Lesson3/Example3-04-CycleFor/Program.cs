@@ -9,4 +9,4 @@ string Method4(int count, string text)
     return result;
 }
 string res = Method4(10, "Какой-то текст\n");
-Console.WriteLine(res); 
+Console.WriteLine(res);
